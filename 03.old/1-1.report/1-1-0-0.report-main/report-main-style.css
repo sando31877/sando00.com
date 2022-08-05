@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #09161d;
+}
+header {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -70px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  position: fixed;
+  top: 10%;
+  width: 100px;
+  left: 0;
+  right: 0;
+
+}
+section {
+  width: 80%;
+  max-height: 600px;
+}
+header .logo {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 600;
+}
+.group {
+  position: relative;
+  display: flex;
+}
+.group .navigation,
+.group .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group ul li {
+  list-style: none;
+}
+.group ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 30px;
+}
+.group ul li a:hover {
+  color: rgb(221, 105, 105);
+}
+.group .action {
+  margin-left: 20px;
+}
+.group .action li a {
+  font-size: 1.25em;
+}
+.backmain {
+  width: 100%;
+  background-color: black;
+}
+.backnav {
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background: #040803;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: -60%;
+  width: 100%;
+  height: 100%;
+  transform: skewY(350deg);
+  transition: 0.2s;
+}
+.korean .card:before {
+  background: #f3bb21;
+}
+.math .card:before {
+  background: #218ef3;
+}
+.physics .card:before {
+  background: #ff2dd2;
+}
+.science .card:before {
+  background: #c7364a;
+}
+.other .card:before {
+  background: #ff9900;
+}
+.data .card:before {
+  background: #ff6600;
+}
+.earth .card:before {
+  background: #6e3b01;
+}
+.test .card:before {
+  background: #2e2e2e;
+}
+.card:hover:before {
+  top: -70%;
+  transform: skewY(370deg);
+}
+.card:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgba(0, 255, 0, 0.027);
+  font-weight: 600;
+  font-size: 7em;
+  transition: 0.2s;
+}
+.korean .card:after {
+  content: "Korean";
+}
+.math .card:after {
+  content: "Math";
+}
+.physics .card:after {
+  content: "Physics";
+}
+.science .card:after {
+  content: "Science";
+}
+.other .card:after {
+  content: "Other";
+}
+.data .card:after {
+  content: "Data";
+}
+.earth .card:after {
+  content: "Earth";
+}
+.korean .card .card:after {
+  background: #f3bb21;
+}
+.math .card .card:after {
+  background: #218ef3;
+}
+.physics .card .card:after {
+  background: #ff2dd2;
+}
+.science .card .card:after {
+  background: #c7364a;
+}
+.other .card .card:after {
+  background: #ff9900;
+}
+.data .card .card:after {
+  background: #ff6600;
+}
+.data .card .card:after {
+  background: #6e3b01;
+}
+.test .card .card:after {
+  background: #2e2e2e;
+}
+
+.card .imgBx {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+.card .imgBx img {
+  max-width: 40%;
+  transition: 0.2s;
+}
+.card:hover .imgBx img {
+  max-width: 10%;
+}
+.card .contentBx {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.card .contentBx h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.card .contentBx .subject {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card .contentBx .gpg {
+  position: relative;
+  top: 100px;
+  padding: 5px 30px;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  opacity: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.2s;
+}
+.korean .card .contentBx .gpg {
+  background: #f3bb21;
+}
+.math .card .contentBx .gpg {
+  background: #218ef3;
+}
+.physics .card .contentBx .gpg {
+  background: #ff2dd2;
+}
+.science .card .contentBx .gpg {
+  background: #c7364a;
+}
+.other .card .contentBx .gpg {
+  background: #ff9900;
+}
+.data .card .contentBx .gpg {
+  background: #ff6600;
+}
+.earth .card .contentBx .gpg {
+  background: #6e3b01;
+}
+.test .card .contentBx .gpg {
+  background: #2e2e2e;
+}
+.card:hover .contentBx .gpg {
+  opacity: 1;
+  top: 0px;
+}
+small {
+  font-size: 13px;
+}

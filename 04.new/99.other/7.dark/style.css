@@ -1,0 +1,87 @@
+@media (prefers-color-scheme) {
+body {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+    .content-box a
+{
+	color: #fff;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.1);
+}
+.content-box a:hover{
+	color: rgb(221, 105, 105);
+	box-shadow: 7px 7px 3px rgba(255, 255, 255, 0.2);
+}
+.logo {
+    color: #fff;
+}
+.group ul li a {
+    color: #fff;
+}
+.card
+{
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.1);
+}
+.card:hover
+{
+	box-shadow: 7px 7px 7px rgba(255, 255, 255, 0.2);
+}
+.card .circle .logo2
+{
+    color: #ffffff;
+}
+.content h2
+{
+	color: #ffffff;
+}
+.content a
+{
+	color: black;
+	background: #fff;
+}
+.content p
+{
+	color: #fff;
+}
+.paper {
+    background: rgba(0,0,0,.2);
+}
+.paper p {
+    color: #fff;
+}
+section h2 {
+    color: #fff;
+}
+section p {
+    color: #fff;
+}
+section h3 {
+    color: #fff;
+}
+section b {
+    color: #fff;
+}
+section {
+    color: #fff;
+}
+.paper {
+    box-shadow: 5px 5px 3px rgba(255, 255, 255, 0.3);
+}
+.paper:hover {
+    box-shadow: 7px 7px 3px rgba(255, 255, 255, 0.4);
+}
+.container .contactForm .formBox .inputBox input[type="button"]
+{
+    background-color: rgba(0,0,0, .15);
+    color: rgb(255,255,255);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.2);
+}
+.container .contactForm .formBox .inputBox input[type="button"]:hover
+{
+    box-shadow: 7px 7px 7px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+}

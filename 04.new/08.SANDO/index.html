@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>sando00 </title>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="../99.other/7.dark/style.css">
+		<link rel="stylesheet" href="../99.other/3.font/style.css">
+    <script language = "javascript">
+      var imgArray = new Array();
+      imgArray[0] = "./images/1.jpg";
+      imgArray[1] = "./images/2.jpg";
+      imgArray[2] = "./images/3.jpg"
+      imgArray[3] = "./images/4.jpg";
+      
+      function showImage(){
+        var imgNum = Math.round(Math.random()*3);
+        var objImg = document.getElementById("introImg");
+        objImg.src = imgArray[imgNum];
+      }
+    </script>
+	</head>
+	<body onload = "showImage()">
+  	<header>
+  		<img id = "introImg" class="banner">
+  		<a href="../99.other/5-1.goonedirve/index.html" class="logo">SANDO</a>
+      <div class="toggle"></div>
+  		<nav>
+  			<ul>
+  				<li><a href="../index.html">Home</a></li>
+  				<li><a href="../06.photos/index.html">Photo</a></li>
+  				<li><a href="a#">Memo</a></li>
+  				<li><a href="../07.download/07-1.download-main/index.html">Download</a></li>
+  				<li><a href="./index.html">SANDO</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+    <section>
+      <h2>Computer Specs</h2>
+      <p>CPU | Intel i5-12500H 12c16t</p>
+      <p>VGA | Intel Iris Xe 80EU</p>
+      <p>RAM | 8 + 8 3200MHz cl19</p>
+      <p>M/B | X1603ZA</p>
+      <br><br><br><br><br><br><br><br><br><br>
+    </section>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      const navigation = document.querySelector('nav');
+      document.querySelector('.toggle').onclick = function()
+      {
+        this.classList.toggle('active');
+        navigation.classList.toggle('active');
+      }
+    </script>
+    		<script src="../99.other/9.noLink/jquery-3.6.0.min.js"></script>
+        <script src="../99.other/9.noLink/noLink.js"></script>
+  </body>
+</html>

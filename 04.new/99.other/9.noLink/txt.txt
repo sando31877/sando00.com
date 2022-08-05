@@ -1,0 +1,2 @@
+<script src="../99.other/9.noLink/jquery-3.6.0.min.js"></script>
+<script src="../99.other/9.noLink/noLink.js"></script>

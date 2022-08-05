@@ -1,0 +1,45 @@
+@font-face {
+    src: url('Arita4.0_B.ttf');
+    font-family: "Arita4_B";
+}
+@font-face {
+    src: url('Arita4.0_SB.ttf');
+    font-family: "Arita4_SB";
+}
+@font-face {
+    src: url('Arita4.0_M.ttf');
+    font-family: "Arita4_M";
+}
+@font-face {
+    src: url('Arita4.0_L.ttf');
+    font-family: "Arita4_L";
+}
+@font-face {
+    src: url('Arita4.0_T.ttf');
+    font-family: "Arita4_T";
+}
+@font-face {
+    src: url('../3.font/Arita-buriB.ttf');
+    font-family: "Aritaburi_B";
+}
+@font-face {
+    src: url('../3.font/BMJUA_ttf.ttf');
+    font-family: "jua_B";
+}
+
+h1 {
+    font-family: "Arita4_B";
+  }
+h2 {
+    font-family: "Arita4_B";
+}
+h5{
+    font-family: "Arita4_SB";
+}
+p {
+    font-family: "Arita4_T";
+}
+sub{
+    font-size: .5em;
+    font-family: "Aritaburi_B";
+}

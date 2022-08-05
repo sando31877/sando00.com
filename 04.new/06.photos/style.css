@@ -1,0 +1,76 @@
+* {
+    margin: 0; padding: 0;
+    font-family: 'Malgun Gotic', sans-serif;
+}
+
+a { text-decoration: none; }
+img { border: 0; }
+li { list-style: none; }
+
+.paper {
+    width: 210px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 3px rgba(34, 25, 25, 0.3);
+    transition: 0.3s;
+
+}
+
+.paper:hover {
+    box-shadow: 7px 7px 3px rgba(34, 25, 25, 0.4);
+    transform: translateX(-5px);
+    transform: translateY(-5px);
+}
+
+/* 미디어 쿼리를 지원하지 않는 웹 브라우저 */
+#main-section {
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* 3줄 */
+@media (max-width: 919px) {
+    #main-section { width: 690px; }
+} 
+
+/* 4줄 */
+@media (min-width: 920px) and (max-width:1149px) {
+    #main-section { width: 920px; }
+} 
+
+/* 5줄 */
+@media (min-width:1150px) and (max-width:1379px) {
+    #main-section { width: 1150px; }
+}
+
+/* 6줄 */
+@media (min-width:1380px) {
+    #main-section { width: 1380px; }
+}
+
+#darken-background {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 100%; 
+
+    display: none;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+    overflow-y: scroll;
+}
+
+#lightbox {
+    width: 700px;
+    margin: 20px auto; padding: 15px;
+
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 5px 5px rgba(34, 25, 25, 0.4);
+
+    text-align: center;
+}
+
+.user-information {  overflow: hidden;  text-align: left; }
+.user-information-image { float: left; width: 70px; }
+.user-information-text { float: right; width: 620px;  }
+.lightbox-splitter { margin: 10px 0; }

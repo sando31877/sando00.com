@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sando00 | Photo</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../99.other/1.header-css/header.css">
+    <link rel="stylesheet" href="../99.other/3.font/style.css">
+	<link rel="stylesheet" href="../99.other/7.dark/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./imagesloaded.pkgd.min.js"></script>
+    <script src="./masonry.pkgd.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.outer-menu').hover(function () {
+                $(this).find('.inner-menu').css('display', 'block');
+            }, function () {
+                $(this).find('.inner-menu').css('display', 'none');
+            });
+        });
+        $(document).ready(function () {
+            $('#main-section').imagesLoaded(function () {
+                $('#main-section').masonry({
+                    itemSelector: '.paper',
+                    columnWidth: 230,
+                    isAnimated: true
+                });
+            });
+});
+
+        $(document).ready(function () {
+            function showLightBox() {
+                $('#darken-background').show();
+                $('#darken-background').css('top', $(window).scrollTop());
+                $('body').css('overflow', 'hidden');
+            }
+
+            function hideLightBox() {
+                $('#darken-background').hide();
+                $('body').css('overflow', '');
+            }
+
+            $('#darken-background').click(function () {
+                hideLightBox();
+            });
+            $('.paper').click(function () {
+                showLightBox();
+            });
+            $('#lightbox').click(function (event) {
+                event.stopPropagation()
+            });
+        });
+    </script>
+</head> 
+<body> 
+
+    <div class="head-box">
+        <div class="title">
+            <a href="./index.html" class="logo">Photo</a>
+        </div>
+        <div class="group">
+                <ul class="navigation">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./index.html" style="--i:1;">Photo</a></li>
+                        <li><a href="a#" style="--i:2;">Memo</a></li>
+                        <li><a href="../07.download/07-1.download-main/index.html" style="--i:3;">Download</a></li>
+                        <li><a href="../08.SANDO/index.html" style="--i:4;">SANDO</a></li>
+                    </ul>
+        </div>
+    </div>
+
+    <section id="main-section"> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/328">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/290">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/200">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/215">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/256">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/182">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/176">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/316">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/186">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/249">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/324">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/305">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/180">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/273">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/188">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/230">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/192">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/317">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/326">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/258">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/328">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/290">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/200">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/215">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/256">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/182">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/176">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/316">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/186">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/249">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/324">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/305">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/180">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/273">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/188">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/230">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/192">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/317">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/326">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/258">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/328">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/290">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/200">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/215">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/256">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/182">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/176">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/316">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/186">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/249">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/324">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/305">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/180">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/273">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/188">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/230">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/192">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/317">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/326">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/258">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/328">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/290">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/200">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/215">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/256">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/182">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/176">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/316">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/186">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/249">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/324">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/305">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/180">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/273">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/188">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/230">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/192">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/317">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/326">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/258">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/328">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/290">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/200">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/215">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/256">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/182">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/176">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/316">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/186">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/249">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/324">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/305">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/180">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/273">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/188">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/230">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/192">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/317">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/326">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/258">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/328">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/290">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/200">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/215">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/256">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/182">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/176">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/316">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/186">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/249">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/324">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/305">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/180">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/273">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/188">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/230">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/192">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/317">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/326">
+        </div> 
+        
+        <div class="paper"> 
+                <img width="210px" src="https://placekitten.com/190/258">
+        </div> 
+    </section> 
+    <script src="../99.other/9.noLink/noLink.js"></script>
+</body> 
+</html> 

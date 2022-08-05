@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>sando00 | Physics Report pages</title>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="../../99.other/3.font/style.css">
+		<link rel="stylesheet" href="../../99.other/7.dark/style.css">
+		<link rel="stylesheet" href="../../99.other/1.header-css/header.css">
+	</head>
+	<body>
+		<div class="head-box">
+			<div class="title">
+				<a href="../02-1.report-main/index.html" class="logo">보고서</a>
+			</div>
+			<div class="group">
+				<ul class="navigation">
+					<li><a href="../../index.html">Home</a></li>
+					<li><a href="../../06.photos/index.html" style="--i:1;">Photo</a></li>
+					<li><a href="a#" style="--i:2;">Memo</a></li>
+					<li><a href="../../07.download/07-1.download-main/index.html" style="--i:3;">Download</a></li>
+					<li><a href="../../08.SANDO/index.html" style="--i:4;">SANDO</a></li>
+				</ul>
+			</div>
+		</div>  
+		<section>
+			<h2>MST 프림 알고리즘</h2>
+		</section>
+		<section>
+			<div class="content-box">
+				<a href="https://colab.research.google.com/drive/1w9MJi3vsq8OXZuzUrl3SsSz8vInMbWpd"><p>MST 프림 알고리즘 colab 이동</p></a>
+			</div>
+			<br><br>
+			<p>프림 알고리즘은 임의의 시작 정점을 정하고 간선의 집합은 없는 상태에서 아래의 조건을 만족할 때 간선을 하나씩 추가하는 알고리즘이다.</p>
+			<p>조건1. 신장트리와 연결 된 간선들 중 가중치가 가장 작아야 한다.</p>
+			<p>조건2. 신장트리와 연결 된 간선들 중 순환을 발생시키지 않는 간선을 선택해야 한다.</p>
+			<br><br><br>
+			<img src="./images/01.png">
+			<br><br>
+			<p>이러한 신장트리가 있을 때 프림 알고리즘을 사용하여 MST를 구하기 위해서는 우선 임의의 시작 정점을 정하여야 한다.</p>
+			<p></p>
+			<br><br>
+			<img src="./images/02.png">
+			<p>1. 시작 정점 정하기</p>
+			<br><br>
+			<img src="./images/03.png">
+			<p>2. 최소 가중치 간선 추가</p>
+			<p>시작 정점을 A라고 했을 때 최소 가중치를 가지는 간선으로 추가하기 위해서는 ㄱ과 ㄴ 중 ㄱ을 선택하여야 한다.</p>
+			<br><br>
+			<img src="./images/04.png">
+			<p>3. 간선과 연결 된 정점 추가</p>
+			<br><br>
+			<p>이를 모든 정점이 신장트리에 포함될 때 까지 2,3을 반복한다.</p>
+			<br><br>
+			<img src="./images/05.png">
+			<p>2. 최소 가중치 간선 추가</p>
+			<br><br>
+			<img src="./images/05-1.png">
+			<p>3. 간선과 연결 된 정점 추가</p>
+			<br><br>
+			<img src="./images/06.png">
+			<p>2. 최소 가중치 간선 추가</p>
+			<br><br>
+			<img src="./images/07.png">
+			<p>3. 간선과 연결 된 정점 추가</p>
+			<br><br>
+			<img src="./images/08.png">
+			<p>2. 최소 가중치 간선 추가</p>
+			<br><br>
+			<img src="./images/09.png">
+			<p>3. 간선과 연결 된 정점 추가</p>
+			<br><br>
+			<p>프림 알고리즘은 모든 정점을 추가해야 하기 때문에 C를 추가하기 위한 최소한의 간선을 선택하여 C를 추가한다.</p>
+			<br><br>
+			<img src="./images/10.png">
+			<img src="./images/11.png">
+			<img src="./images/12.png">
+			<br><br><br>
+			<img src="./images/13.png">
+			<p>2. 최소 가중치 간선 추가</p>
+			<br><br>
+			<img src="./images/14.png">
+			<p>3. 간선과 연결 된 정점 추가</p>
+			<br><br>
+			<img src="./images/15.png">
+			<p>모든 정점이 추가될 경우 MST가 완성이 되며 이 때 가중치는 3 + 2 + 1 + 2 + 4 + 3 = 15이다.</p>
+			<br><br>
+		</section>
+		<section>
+
+				<script src="../../99.other/9.noLink/jquery-3.6.0.min.js"></script>
+				<script src="../../99.other/9.noLink/noLink.js"></script>
+	</body>
+</html>
